@@ -1,0 +1,9 @@
+MySQL schema:
+
+db name: contactme
+
+table 1: name -> message
+table 2: name -> last date message entered
+table 3: name -> their contact info 
+
+* if person sends more than one message, it will be appended to the end of the older message that person has sent before
