@@ -165,7 +165,7 @@
 
           <br/>
 
-          <form action="msgsubmit.php" method="POST">
+          <form id="dbsubmission" name="dbsubmission" action="msgsubmit.php" onsubmit="return formvalidate()" method="POST">
             Send Message
             <br/>
             <br/>
@@ -194,6 +194,6 @@
       
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
       <script src="https://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
-      <script type="text/javascript" src="./JS/carousel.js"></script> 
+      <script type="text/javascript" src="./JS/webhandle.js"></script> 
   </body>
 </html>

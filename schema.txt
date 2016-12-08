@@ -1,9 +1,7 @@
 MySQL schema:
 
-db name: contactme
+db name: mj_web_db
 
-table 1: name -> message
-table 2: name -> last date message entered
-table 3: name -> their contact info 
+table 1: visitor_info
+	user_id, first_name, last_name, email, message, date
 
-* if person sends more than one message, it will be appended to the end of the older message that person has sent before
